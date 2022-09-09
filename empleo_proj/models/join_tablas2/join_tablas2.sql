@@ -24,7 +24,7 @@ with salarios as (
 
 ), 
 
-with final as (
+/*with final as (
 
     select
         p.fecha as Fecha,
@@ -37,6 +37,6 @@ with final as (
     and p.codigo_departamento_indec = s.codigo_departamento_indec
     and p.clae2 = s.clae2
 
-),
+),*/
 
 select * from puestos

@@ -5,10 +5,10 @@ with acts as(
     select * from {{ref('diccionario_clae2')}}
 ),
 
-with joins as(
+joins as(
 
     select * from {{ref('join_tablas')}}
-),
+)
 
 select a.letra_desc as Actividad, sum(j.WagesAmount)/sum(j.Jobs) as SalarioMedio
 from acts as a inner join joins as j

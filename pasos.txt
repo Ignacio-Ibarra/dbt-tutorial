@@ -7,7 +7,7 @@ PASO A PASITO PARA CREAR UN PROYECTO EN DBT CONECTADO A BIGQUERY
 4. Instalo Google Cloud Shell SDK (la CLI) (en Windows uso GUI)-. 
 5. Creo proyecto en GCP (por ahora a mano desde la consola de GCP). 
 6. Habilito API en GCP (por ahora a mano desde la consola de GCP)
-6 bis. Genereo credenciales y descargo json y lo guardo en la carpeta '.dbt' que se genera en la instalación 
+6 bis. Genero credenciales y descargo json y lo guardo en la carpeta '.dbt' que se genera en la instalación 
 7. Estando en el proyecto GCP creo Datasets y Tablas (las tablas pueden ser públicas o se pueden tomar de otras fuentes 
 en mi caso subí archivos)
 8. Desde la SDK hago 'gcloud init' para que me loguee a la cuenta/proyecto correspondiente
@@ -27,7 +27,7 @@ b) una carpeta que va con el nombre del proyecto dbt y se crea dentro del repo.
 c) un archivo dbt_proyect.yml que tiene especificaciones sobre schemas, modelos, etc. del proyecto. 
 d) varias carpetas referidas a modelos donde se guardarán archivos sql
 15. Para ver que todo lo que hice está ok, me paro dentro de la carpeta del proyecto creado y hago 'dbt debug'. 
-Esto correrá un programita que testeará si todas la configuración del entrno ha sido la correcta para empezar a trabajar. 
+Esto correrá un programita que testeará si toda la configuración del entrno ha sido la correcta para empezar a trabajar. 
 15. Ahora hay que actualizar repo: algunos comandos para ello podrían ser...  
 git add .
 git commit -m "sarasas"

@@ -10,7 +10,7 @@ config-version: 2
 profile: 'loa'
 
 vars:
-  periodo: '1900-01-01'
+  periodo: '2021-04-23'  #ejemplo de fecha de partición 
   usuario: 'usuario_no_declarado'
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be

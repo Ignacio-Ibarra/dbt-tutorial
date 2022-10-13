@@ -12,3 +12,17 @@ empleo_proj2:
       threads: 3
       type: bigquery
   target: dev
+loa:
+  outputs:
+    dev:
+      dataset: transformation_stage
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /secrets/dbt-service-account.json
+      location: us-east4
+      method: service-account
+      priority: interactive
+      project: cloud-run-dbt-test1
+      threads: 3
+      type: bigquery
+  target: dev
